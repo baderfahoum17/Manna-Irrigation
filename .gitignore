@@ -1,0 +1,4 @@
+node_modules/
+.eslintcache
+MannaIrrigationViewerBackup/
+.DS_Store
