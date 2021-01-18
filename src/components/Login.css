@@ -16,21 +16,23 @@ button {
 .title {
   display: flex;
   justify-content: center;
-  align-items: top;
   color: rgb(253, 253, 253);
   font-weight: 100;
   margin-bottom: 20px;
   padding: 15px;
-  transform: scale(1.8, 1.8);
+  text-transform: uppercase;
+  padding: 0;
 }
 
 form {
-  display: block;
-  position: relative;
-  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
-form:after {
+/* form:after {
   content: "";
   display: block;
   position: absolute;
@@ -39,7 +41,7 @@ form:after {
   right: -5px;
   bottom: -5px;
   z-index: 1;
-}
+} */
 
 .form-inner {
   position: relative;
@@ -117,4 +119,18 @@ form:after {
 .error {
   padding-bottom: 10px;
   color: rgb(236, 127, 149);
+}
+
+@media only screen and (max-width: 500px) {
+  .farmList-list {
+    display: flex;
+    flex-flow: column;
+    padding-top: 2.5em;
+    /* width: 80vw; */
+    padding-left: 2em;
+    padding-right: 2em;
+    box-sizing: border-box;
+    width: 100vw;
+    font-size: smaller;
+  }
 }
