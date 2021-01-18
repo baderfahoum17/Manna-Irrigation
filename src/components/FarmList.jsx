@@ -13,7 +13,7 @@ function FarmList(props) {
     if (!apiToken) {
       props.history.push("/");
     } else {
-      const timer = setTimeout(() => {
+      setTimeout(() => {
         setLoading(false);
       }, 500);
       fetchFarms(apiToken.apiToken);
