@@ -120,17 +120,3 @@ form {
   padding-bottom: 10px;
   color: rgb(236, 127, 149);
 }
-
-@media only screen and (max-width: 500px) {
-  .farmList-list {
-    display: flex;
-    flex-flow: column;
-    padding-top: 2.5em;
-    /* width: 80vw; */
-    padding-left: 2em;
-    padding-right: 2em;
-    box-sizing: border-box;
-    width: 100vw;
-    font-size: smaller;
-  }
-}
