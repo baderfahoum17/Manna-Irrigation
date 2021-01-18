@@ -36,7 +36,6 @@
   background-color: whitesmoke;
 
   overflow: hidden;
-  /* Set our transitions up. */
   -webkit-transition: max-height 0.8s;
   -moz-transition: max-height 0.8s;
   transition: all 0.8s ease-in;
@@ -45,10 +44,6 @@
 }
 
 .show {
-  /* padding: 0 10px;
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  padding-left: 1em; */
   max-height: 1000px;
   transition: all 2s ease-in-out;
   background-color: whitesmoke;

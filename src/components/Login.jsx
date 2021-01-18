@@ -2,10 +2,6 @@ import React, {useState} from "react";
 import "./Login.css";
 
 function Login(props) {
-  // const adminUsr = {
-  //   email: "1140@manna.com",
-  //   password: "123456",
-  // };
   const URL = "https://qa.manna-irrigation.com:8443/omer/api/v2/users/login";
   const [details, setDetails] = useState({email: "", password: ""});
   const [error, setError] = useState("");
