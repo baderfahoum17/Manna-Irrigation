@@ -1,0 +1,76 @@
+.accordion-btn {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #005e7c;
+  outline: none;
+  border: none;
+  font-size: inherit;
+  font-stretch: extra-expanded;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+.accordion-btn:hover {
+  animation: ease-in;
+  background-color: rgba(99, 188, 240, 0.699);
+}
+
+.accordionContent {
+  padding: 0 10px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding-left: 1em;
+
+  max-height: 0;
+  background-color: whitesmoke;
+
+  overflow: hidden;
+  /* Set our transitions up. */
+  -webkit-transition: max-height 0.8s;
+  -moz-transition: max-height 0.8s;
+  transition: all 0.8s ease-in;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.show {
+  /* padding: 0 10px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding-left: 1em; */
+  max-height: 1000px;
+  transition: all 2s ease-in-out;
+  background-color: whitesmoke;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.list {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  padding-left: 1em;
+}
+.list li {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+.list li:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.list:last-child {
+  padding-bottom: 1rem;
+}
+.accent {
+  padding-top: 0.5em;
+  color: rgb(243, 184, 196);
+  font-size: 10px;
+  cursor: pointer;
+}

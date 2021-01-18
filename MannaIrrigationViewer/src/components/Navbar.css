@@ -1,0 +1,40 @@
+.select-container {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+/* .slider {
+  width: 340px;
+  margin: 0 10px;
+  display: inline-block;
+} */
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.836);
+  padding: 1%;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: smaller;
+}
+
+.logo a {
+  color: rgba(255, 255, 255, 0.836);
+  text-decoration: none;
+  transform: scale(1.5);
+  padding-right: 1em;
+  transition: color 0.3s linear;
+}
+.logo a:hover {
+  color: crimson;
+  transition: color 0.3s linear;
+}
+.category-title {
+  color: white;
+  text-transform: capitalize;
+}
