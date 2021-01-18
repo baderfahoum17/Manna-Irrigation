@@ -20,8 +20,8 @@ body {
 .farmList-list {
   padding-top: 2.5em;
   /* width: 80vw; */
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   box-sizing: border-box;
   width: 100%;
   display: grid;
@@ -43,7 +43,7 @@ body {
   max-height: 250px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .farmList-list {
     display: flex;
     flex-flow: column;
@@ -52,6 +52,7 @@ body {
     padding-left: 2em;
     padding-right: 2em;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
+    font-size: smaller;
   }
 }
